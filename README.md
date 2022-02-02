@@ -1,5 +1,7 @@
 # GraphQL Boilerplate
 
+[![codecov](https://codecov.io/gh/lewisjerremy/gql-boilerplate/branch/main/graph/badge.svg?token=WKJNZ0SYAA)](https://codecov.io/gh/lewisjerremy/gql-boilerplate)
+
 A GraphQL server boilerplate. Uses Apollo Server, Prisma ORM, Nexus Schemas, Postgres, and more.
 
 ## Environment Setup
