@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User should persist data 1`] = `
+Array [
+  Object {
+    "createdAt": 2022-02-01T07:00:00.000Z,
+    "id": 1,
+    "name": "Tim",
+    "updatedAt": 2022-02-01T07:00:00.000Z,
+  },
+  Object {
+    "createdAt": 2022-02-01T07:00:00.000Z,
+    "id": 2,
+    "name": "Robert",
+    "updatedAt": 2022-02-01T07:00:00.000Z,
+  },
+  Object {
+    "createdAt": 2022-02-01T07:00:00.000Z,
+    "id": 3,
+    "name": "John",
+    "updatedAt": 2022-02-01T07:00:00.000Z,
+  },
+  Object {
+    "createdAt": 2022-02-01T07:00:00.000Z,
+    "id": 4,
+    "name": "Mark",
+    "updatedAt": 2022-02-01T07:00:00.000Z,
+  },
+  Object {
+    "createdAt": 2022-02-01T07:00:00.000Z,
+    "id": 5,
+    "name": "Cam",
+    "updatedAt": 2022-02-01T07:00:00.000Z,
+  },
+]
+`;
