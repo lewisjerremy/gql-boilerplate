@@ -20,7 +20,12 @@ jobs:
         run: yarn lint
 
       - name: Run Tests
-        run: yarn test:unit
+        run: yarn test:unit --coverage
 
       - name: Run Build
         run: yarn build
+
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v2.1.0
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
