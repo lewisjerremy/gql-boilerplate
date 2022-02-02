@@ -10,5 +10,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "exclude": ["nexus-typegen.ts"]
+  "exclude": ["nexus-typegen.ts", "**/__mocks__/*", "**/dist/"]
 }
