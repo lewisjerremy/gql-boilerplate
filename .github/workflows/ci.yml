@@ -25,7 +25,7 @@ jobs:
       - name: Run Build
         run: yarn build
 
-      - name: Upload coverage report
+      - name: Upload coverage
         uses: codecov/codecov-action@v2.1.0
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
