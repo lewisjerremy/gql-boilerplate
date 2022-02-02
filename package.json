@@ -7,7 +7,7 @@
     "clean": "rm -rf dist",
     "dev": "tsnd --respawn --transpile-only src",
     "lint": "tsc --noEmit && eslint --quiet --fix",
-    "start": "node dist",
+    "start": "node dist/src",
     "test": "jest",
     "test:unit": "yarn test --testRegex '/*.unit.ts(?!.)'"
   },
